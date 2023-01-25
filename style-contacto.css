@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Dosis';
+    src: url('Recursos/Fuentes/Dosis/Dosis-Regular.woff2') 
+    format("woff2");
+}
+@font-face {
+    font-family: 'Calendas';
+    src: url('Recursos/Fuentes/Calendas/calendas_plus-webfont.woff2') 
+    format("woff2");
+}
+main{
+    width: 100vw;
+    height: 50hw;
+    background-color: #444444;
+    border-radius: 15px;
+    color: #dddddd;
+    box-sizing: content-box;
+    padding-bottom: 1%;
+}
+form{
+    margin: 0 1% 1% 1%;
+    padding: 1%;
+}
+form label, form legend{
+    display: block;
+    font-family: 'Calendas';
+    font-size: 20px;
+    color: #dddddd;
+    margin: 0 0 0 5%;
+}
+select{
+    width: 35%;
+    margin: 1% 5% 1% 5%;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Dosis';
+    font-size: 20px;
+}
+option{
+    background-color: #707070;
+}
+.send{
+    display: block;
+    width: 35%;
+    margin: 1% 5% 1% 5%;
+    padding: 3px 8px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Calendas';
+    font-size: 20px;
+    background-color: #707070;
+    color: #dddddd;
+    transition: 1s background-color, 1s border, 0.5s transform;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: #999999;
+    border: 1px solid #dddddd;
+    transform: scale(1.1);
+}
+.send:active{
+    background-color: #000000;
+}
+.input-contacto{
+    display: block;
+    width: 35%;
+    margin: 1% 5% 1% 5%;
+    padding: 3px 8px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Dosis';
+    font-size: 20px;
+}
+.checkbox{
+    width: 35%;
+    margin: 1% 5% 1% 5%;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Dosis';
+    font-size: 20px;
+}
+.radio-input{
+    display: inline-block;
+    width: 15%;
+    text-align: left;
+    margin: 1% 0;
+    padding: 0;
+}
+table{
+    display: table;
+    width: 37%;
+    margin: 1% 5% 1% 5%;
+    padding: 3px 8px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Dosis';
+    font-size: 20px;
+    background-color: #444444;
+}
+thead, tbody{
+    
+    text-align: center;
+}
+thead{
+    font-family: 'dosis';
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+td, th{
+    border: 1px solid #dddddd;
+}

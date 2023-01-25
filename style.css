@@ -9,80 +9,131 @@
     format("woff2");
 }
 body{
-    background-color: #494f56;
-    margin: 0;
-    padding: 0;
+    background-color: #707070;
+    width: 100vw;
 }
-div{
-    font-family: 'Calendas';
-    font-size: 25px;
-    color: #ddd;
-    text-align: center;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-}
-h1{
+header{
     font-family: 'Dosis';
+    padding: 0 0;
+    margin: 1% 1% 1% 1%;
+    border-radius: 15px;
+    background-color: #707070;
+    box-sizing: border-box;
+}
+nav{
+    position: absolute;
+    top: 37.5%;
+    right: 0;
+    left: 45%;
+}
+    /*display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+#inicio{
+    flex: 1;
+}
+#product{
+    flex: 2;
+
+}
+#contact{
+    flex: 3;
+}*/
+
+nav li{
+    display: inline;
+    margin: 0 5% 5% 1%;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #dddddd;
     font-size: 50px;
-    color: #30c7ad;
-    text-align: center;
-    padding: 0;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 1s color;
 }
-h2{
-    font-family: 'Dosis';
-    font-size: 40px;
-    color: #30c7ad;
-    padding: 0;
+nav a:hover{
+    color: #999999;
+    cursor: pointer;
 }
-p{
-    font-size: 20px;
-    text-align: center;
-    padding: 0;
+main{
+    background-color: #707070;
 }
-ul{
-    list-style-type: none;
-    margin-right: 10%;
-    padding: 0;
+.Caja{
+    position: relative;
+    background-color: #1b1b1b;
+    border-radius: 15px;
+    margin: 0 0 0 0;
+}
+.Caja h1{
+    margin: 0 15% 0 10%;
+}
+.Productos{
+    width: 100vw;
+    margin: 0 .75% 0 .75%;
+    padding: .5% 0 .5% 0;
+}
+.Productos li{
     display: inline-block;
-    vertical-align: top;
-    width: 40%;
-    overflow: hidden;
-    font-style: oblique;
-    text-align: left;
-}
-.Parrafo{
-    background-color: #494f56;
-    padding: 20 px;
-}
-.Diferenciales{
-    background-color: #333;
+    background-color: #333333   ;
     text-align: center;
-    padding: 0;
+    vertical-align: top;
+    width: 31.60%;
+    font-family: 'Calendas';
+    color: #dddddd;
+    margin: 0 .5% 0 .5%;
+    padding: 1.5% 0% 1.5% 0%;
+    box-sizing: border-box;
+    border: 2px solid #dddddd;
+    border-radius: 15px;
+    transition: 1s background-color, 1s border, 5s font-size;
 }
-.items{
-    font-style: italic;
+.Productos li:hover{
+    background-color: #000000;
+    cursor: pointer;
 }
-#logo{
-    width: 100%;
-    height: 100%;
-    padding: 0;
+.Productos li:active{
+    background-color: #999999;
+}
+.Productos h2{
+    text-transform: uppercase;
     margin: 0;
-    margin-left: 0;
-    margin-right: 0;
+    font-size: 25px;
 }
-#mision{
-    color: #30ade2;
-    text-align: left;
+.Productos li:hover h2{
+    font-size: 30px;
 }
-#barbero{
-    width: 35%;
-    height: 35%;
-    padding: 0;
-    margin: 0;
-    margin-left: 0;
-    margin-right: 0;
+.Descripcion
+{
+    font-family: 'Dosis';
+    font-size: 16px;
 }
-#encabezado{
-    text-align: left;
-    padding: 1.5%;
+.Precio{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: .5%;
+}
+footer{
+    margin: 1% 0 0 0;
+    text-align: center;
+    padding: 1% 0 1% 0;
+}
+#Copy{
+    background-color: #999999;
+    border-radius: 15px 15px 0 0;
+}
+.Copyright{
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Calendas';
+    margin: 1% 1% 1% 1%;
+}
+.Imagen-producto{
+    width: 50%;
+    height: 50%;
 }
