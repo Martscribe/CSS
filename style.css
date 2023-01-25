@@ -12,6 +12,10 @@ body{
     background-color: #333333;
     width: 100vw;
 }
+main{
+    font-size: 15px;
+}
+/*estilo header*/
 header{
     font-family: 'Dosis';
     padding: 0 0;
@@ -52,17 +56,7 @@ nav a:hover{
     cursor: pointer;
 }
 
-
-
-
-main{
-    font-size: 15px;
-}
-
-
-
-
-
+/*estilo footer*/
 
 footer{
     margin: 0 0 0 0;
@@ -80,20 +74,364 @@ footer{
     font-family: 'Calendas';
     margin: 1% 1% 1% 1%;
 }
-    /*display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+
+
+/*Style for the index.html*/
+#banner{
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+}
+.Parrafo{
+    padding: 0 0 0 0;
+    font-family: 'Calendas';
+    font-size: 1em;
+    color: #dddddd;
+    text-align: center;
+    margin: 0 0 0 0;
+    background-color: #333333;
+}
+.Titulo{
+    text-align: center;
+    font-family: 'Dosis';
+    font-size: 2em;
+    color: #101010;
+    margin: 0 0 .25em 0;
+    font-weight: bolder;
+}
+#utensilios{
+    width: 240px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 5px;
+    float: right;
+}
+.Parrafo p{
+    margin: .25em 0 .25em 0;
+    border-radius: 15px;
+    padding: .5em;
+    text-align: left;
+}
+.Mision{
+    
+    text-align: center;
+    font-family: 'Calendas';
+    font-size: 1.5em;
+    font-weight: bold;
+    color:  #101010;
+    margin: 0 0 0 0;
+    padding: 0;
+    border-radius: 15px;
+}
+.Mision strong{
+    font-style: italic;
+}
+#titulo-texto{
+    text-align: center;
+    font-family: 'Dosis';
+    font-size: 2em;
+    color: #101010;
+    margin: 0 0 5% 0;
+    font-weight: bolder;
+    clear: right;
+}
+
+
+.Mapa{
+    padding: 0;
+    text-align: center;
+    margin: 0 0 0 0;
+    background: linear-gradient(#333333,#101010);
+}
+.Mapa p{
+    margin: 0 0 1% 0;
+    color:#dddddd;
+}
+#google-map{
+    border-radius: 1px;
+}
+
+#Diferenciales{
+    background-color: #101010;
+    text-align: center;
+    padding: 0 0 1% 0;
+    font-family: 'Calendas';
+    font-size: 1em;
+    color: #dddddd;
+    margin: 0 0 0 0;
+}
+#titulo-diferencial{
+    color: #dddddd;
     
 }
-#inicio{
-    flex: 1;
-}
-#product{
-    flex: 2;
+#barbero{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    opacity: .75;
+    box-shadow: .5em .5em .5em #000000;  
+    border-radius: 1px;
 
 }
-#contact{
-    flex: 3;
-}*/
+#barbero:hover{
+    opacity: 1;
+}
+.Lista{
+    list-style-type: none;
+    margin: 1% 0 0 1%;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    overflow: hidden;
+    font-style: oblique;
+    text-align: left;
+    font-size: 1.5em;
+}
+.Items-diferenciales{
+    font-style: italic;
+    line-height: 1.5;
+}
+.Items-diferenciales:first-child{
+    font-weight: bold;
+}
+#barbero{
+    width: 35%;
+    height: 35%;
+    padding: 0;
+    margin: 0;
+}
+
+.Video-yt{
+    width: 100%;
+    height: 100%;
+    padding: 1% 0 0 0;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(#101010 0%, #999999 100%);
+    background-size: auto;
+}
+#youtube-video{
+    border-radius: 5px;
+    width: 640px;
+    height: 360px;
+}
+
+
+/*Style for the Productos.html*/
+.Productos{
+    width: 100vw;
+    margin: 0 .75% 0 .75%;
+    padding: .5% 0 .5% 0;
+}
+.Productos li{
+    display: inline-block;
+    background-color: #333333;
+    text-align: center;
+    vertical-align: top;
+    width: 31.60%;
+    font-family: 'Calendas';
+    color: #dddddd;
+    margin: 0 .5% 0 .5%;
+    padding: 1.5% 0% 1.5% 0%;
+    box-sizing: border-box;
+    border: 2px solid #dddddd;
+    border-radius: 15px;
+    transition: 1s background-color, 1s border, 5s font-size;
+}
+.Productos li:hover{
+    background-color: #000000;
+    cursor: pointer;
+}
+.Productos li:active{
+    background-color: #999999;
+}
+.Productos h2{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 25px;
+}
+.Productos li:hover h2{
+    font-size: 30px;
+}
+.Descripcion
+{
+    font-family: 'Dosis';
+    font-size: 16px;
+}
+.Precio{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: .5%;
+}
+.Imagen-producto{
+    width: 50%;
+    height: 50%;
+}
+
+/*Style for the contacto.html*/
+main{
+    width: 100vw;
+    height: 50hw;
+    background-color: #444444;
+    border-radius: 15px;
+    color: #dddddd;
+    box-sizing: content-box;
+    padding-bottom: 1%;
+}
+form{
+    margin: 0 1% 1% 1%;
+    padding: 1%;
+}
+form label, form legend{
+    display: block;
+    font-family: 'Calendas';
+    font-size: 20px;
+    color: #dddddd;
+    margin: 0 0 0 5%;
+}
+select{
+    width: 35%;
+    margin: 1% 5% 1% 5%;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Dosis';
+    font-size: 20px;
+}
+option{
+    background-color: #707070;
+}
+.send{
+    display: block;
+    width: 35%;
+    margin: 1% 5% 1% 5%;
+    padding: 3px 8px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Calendas';
+    font-size: 20px;
+    background-color: #707070;
+    color: #dddddd;
+    transition: 1s background-color, 1s border, 0.5s transform;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: #999999;
+    border: 1px solid #dddddd;
+    transform: scale(1.1);
+}
+.send:active{
+    background-color: #000000;
+}
+.input-contacto{
+    display: block;
+    width: 35%;
+    margin: 1% 5% 1% 5%;
+    padding: 3px 8px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Dosis';
+    font-size: 20px;
+}
+.checkbox{
+    width: 35%;
+    margin: 1% 5% 1% 5%;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Dosis';
+    font-size: 20px;
+}
+.radio-input{
+    display: inline-block;
+    width: 15%;
+    text-align: left;
+    margin: 1% 0;
+    padding: 0;
+}
+table{
+    display: table;
+    width: 37%;
+    margin: 1% 5% 1% 5%;
+    padding: 3px 8px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Dosis';
+    font-size: 20px;
+    background-color: #444444;
+}
+thead, tbody{
+    
+    text-align: center;
+}
+thead{
+    font-family: 'dosis';
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+td, th{
+    border: 1px solid #dddddd;
+}
+
+
+/*media querry 480 px*/
+@media screen and (max-width: 480px) {
+    .Caja{
+        width:100%
+    }
+
+    #barbero{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #youtube-video{
+        width: 100%;
+        height: 100%;
+    }
+    #utensilios{
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 5px;
+        float: right;
+    }
+    .Lista{
+        width: 100%;
+    }
+    .Video-yt{
+        width: 100%;
+        height: 100%;
+        padding: 1% 0 0 0;
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        background: linear-gradient(#101010 0%, #999999 100%);
+        background-size: auto;
+    }
+    #youtube-video{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .Caja h1{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+        display: block;
+    }
+    nav{
+        position: static;
+    }
+}
