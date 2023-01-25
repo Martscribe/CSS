@@ -13,7 +13,6 @@
 <body>
     <header>
         <div class="Caja">
-            <h1 id="encabezado">Barbería Alura</h1>
             <h1><img src="Recursos/Imagenes/logo-blanco.png" alt="logo barberia alura"></h1>
             <nav>
                 <ul>
@@ -25,16 +24,19 @@
         </div>
     </header>
     <main>
-        <img src="Recursos/imagenes/banner.jpg" alt="Logo Barbería Alura" id="logo">
-        <div class="Parrafo">
+        <h1>Barbería Alura</h1>
+        <img src="Recursos/imagenes/banner.jpg" alt="banner Barbería Alura" id="banner">
+        
+        
+        <section class="Parrafo">
             
-            <h1>Sobre la Barbería Alura</h1>
-            
+            <h1 class="Titulo">Sobre la Barbería Alura</h1>
+            <img src="Recursos/imagenes/utensilios[1].jpg" alt="utensilios" id="utensilios">
             <p>
                 Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente. 
             </p>
             
-            <h2 id="mision">
+            <h2 class="Mision">
                 <em>Nuestra misión es:
                     <strong> "Proporcionar autoestima y calidad de vida a nuestros clientes".</strong>
                 </em>
@@ -43,16 +45,26 @@
             <p>
                 Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.        
             </p>
-        </div>
-        <div class="Diferenciales">    
-            <h2>Diferenciales</h2>
-            <ul>
-                <li class="items">-Atencion personalizada</li>
-                <li class="items">-Espacio diferenciado</li>
-                <li class="items">-Localización</li>
-                <li class="items">-Profesionales calificados</li>
-            </ul>
-            <img src="Recursos/imagenes/diferenciales.jpg" alt="Barbero" id="barbero">
+        </section>
+        <section class="Mapa">
+            <h1 class="Titulo" id="titulo-texto">Ubicación</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2944804234216!2d-43.176141699999995!3d-22.9025067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5f371c4e59%3A0x9938d55dca1fbf51!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses-419!2smx!4v1674415664130!5m2!1ses-419!2smx" width="90%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="google-map"></iframe>
+        </section>
+        <section class="Parrafo" id="Diferenciales">    
+            <h2 class="Titulo" id="titulo-diferencial">Diferenciales</h2>
+            <div>
+                <ul class="Lista">
+                    <li class="Items-diferenciales">-Atencion personalizada</li>
+                    <li class="Items-diferenciales">-Espacio diferenciado</li>
+                    <li class="Items-diferenciales">-Localización</li>
+                    <li class="Items-diferenciales">-Profesionales calificados</li>
+                    <li class="Items-diferenciales">-Puntualidad</li>
+                    <li class="Items-diferenciales">-Limpieza</li>
+                </ul><img src="Recursos/imagenes/diferenciales.jpg" alt="Barbero" id="barbero">
+            </div>
+        </section>
+        <div class="Video-yt">
+            <iframe width="90%" height="100%" src="https://www.youtube.com/embed/wcVVXUV0YUY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="youtube-video"></iframe>
         </div>
     </main>
     <footer>

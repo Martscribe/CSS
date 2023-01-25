@@ -9,7 +9,7 @@
     format("woff2");
 }
 body{
-    background-color: #707070;
+    background-color: #333333;
     width: 100vw;
 }
 header{
@@ -20,11 +20,65 @@ header{
     background-color: #707070;
     box-sizing: border-box;
 }
+.Caja{
+    position: relative;
+    background-color: #1b1b1b;
+    border-radius: 5px;
+    margin: 0 0 0 0;
+}
+.Caja h1{
+    margin: 0 15% 0 10%;
+}
 nav{
     position: absolute;
     top: 37.5%;
     right: 0;
     left: 45%;
+}
+nav li{
+    display: inline;
+    margin: 0 5% 5% 1%;
+}
+nav a{
+    text-transform: uppercase;
+    color: #dddddd;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 1s color;
+}
+nav a:hover{
+    color: #999999;
+    cursor: pointer;
+}
+
+
+
+
+main{
+    font-size: 15px;
+}
+
+
+
+
+
+
+footer{
+    margin: 0 0 0 0;
+    text-align: center;
+    padding: 1% 0 1% 0;
+    background-color: #999999;
+}
+#Copy{
+    background-color: #999999;
+    border-radius: 15px 15px 0 0;
+}
+.Copyright{
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Calendas';
+    margin: 1% 1% 1% 1%;
 }
     /*display: flex;
     flex-direction: row-reverse;
@@ -43,97 +97,3 @@ nav{
 #contact{
     flex: 3;
 }*/
-
-nav li{
-    display: inline;
-    margin: 0 5% 5% 1%;
-}
-
-nav a{
-    text-transform: uppercase;
-    color: #dddddd;
-    font-size: 50px;
-    font-weight: bolder;
-    text-decoration: none;
-    transition: 1s color;
-}
-nav a:hover{
-    color: #999999;
-    cursor: pointer;
-}
-main{
-    background-color: #707070;
-}
-.Caja{
-    position: relative;
-    background-color: #1b1b1b;
-    border-radius: 15px;
-    margin: 0 0 0 0;
-}
-.Caja h1{
-    margin: 0 15% 0 10%;
-}
-.Productos{
-    width: 100vw;
-    margin: 0 .75% 0 .75%;
-    padding: .5% 0 .5% 0;
-}
-.Productos li{
-    display: inline-block;
-    background-color: #333333   ;
-    text-align: center;
-    vertical-align: top;
-    width: 31.60%;
-    font-family: 'Calendas';
-    color: #dddddd;
-    margin: 0 .5% 0 .5%;
-    padding: 1.5% 0% 1.5% 0%;
-    box-sizing: border-box;
-    border: 2px solid #dddddd;
-    border-radius: 15px;
-    transition: 1s background-color, 1s border, 5s font-size;
-}
-.Productos li:hover{
-    background-color: #000000;
-    cursor: pointer;
-}
-.Productos li:active{
-    background-color: #999999;
-}
-.Productos h2{
-    text-transform: uppercase;
-    margin: 0;
-    font-size: 25px;
-}
-.Productos li:hover h2{
-    font-size: 30px;
-}
-.Descripcion
-{
-    font-family: 'Dosis';
-    font-size: 16px;
-}
-.Precio{
-    font-size: 30px;
-    font-weight: bolder;
-    margin-top: .5%;
-}
-footer{
-    margin: 1% 0 0 0;
-    text-align: center;
-    padding: 1% 0 1% 0;
-}
-#Copy{
-    background-color: #999999;
-    border-radius: 15px 15px 0 0;
-}
-.Copyright{
-    color: #000000;
-    font-size: 15px;
-    font-family: 'Calendas';
-    margin: 1% 1% 1% 1%;
-}
-.Imagen-producto{
-    width: 50%;
-    height: 50%;
-}
