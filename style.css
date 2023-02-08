@@ -10,9 +10,10 @@
     format("woff2");
 }
 body{
-    width: 100%;
-    height: 100%;
-    padding: 1rem;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
     background-color: #333333;
 }
 /*estilo header*/
@@ -23,16 +24,18 @@ header{
     border-radius: 15px;
 }
 header img{
-    overflow-clip-margin: 0;
+    margin: 0 0 0 30px;
 }
 .Caja{
     background-color: #1b1b1b;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     border-radius: 5px;
 }
 .elementos-header{
-    flex: 1 1 5%;
+    flex: 1 1 100px;
 }
 nav ul{
     display: flex;
@@ -70,7 +73,7 @@ footer{
 }
 .Copyright{
     color: #000000;
-    font-size: 15px;
+    font-size: .5rem;
     font-family: 'Calendas';
     margin: 1% 1% 1% 1%;
 }
@@ -97,7 +100,7 @@ footer{
     font-family: 'Dosis';
     font-size: 2rem;
     color: #101010;
-    margin: 0 0 .25rrem 0;
+    margin: 0 0 .25rem 0;
     font-weight: bolder;
 }
 #utensilios{
@@ -157,12 +160,12 @@ footer{
     text-align: center;
     padding: 0 0 1% 0;
     font-family: 'Calendas';
-    font-size: 1rem;
     color: #dddddd;
     margin: 0 0 0 0;
 }
 #titulo-diferencial{
     color: #dddddd;
+    font-size: 2.5rem;
     
 }
 #barbero{
@@ -187,7 +190,7 @@ footer{
     overflow: hidden;
     font-style: oblique;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .Items-diferenciales{
     font-style: italic;
@@ -204,8 +207,8 @@ footer{
 }
 
 .Video-yt{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     padding: 1% 0 0 0;
     display: inline-block;
     text-align: center;
@@ -215,8 +218,7 @@ footer{
 }
 #youtube-video{
     border-radius: 5px;
-    width: 640px;
-    height: 360px;
+    
 }
 
 
@@ -382,32 +384,22 @@ td, th{
 }
 
 
-/*media querry 480 px
+/*media querry 480 px*/
 @media screen and (max-width: 480px) {
-    .Caja{
-        width:100%
-    }
-
     #barbero{
         width: 100%;
         height: 100%;
         padding: 0;
         margin: 0;
     }
-    #youtube-video{
-        width: 100%;
-        height: 100%;
-    }
     #utensilios{
-        width: 100%;
+        width: 50%;
+        height: 50%;
         padding: 0;
         margin-left: 0;
         margin-right: 0;
         border-radius: 5px;
         float: right;
-    }
-    .Lista{
-        width: 100%;
     }
     .Video-yt{
         width: 100%;
@@ -419,19 +411,8 @@ td, th{
         background: linear-gradient(#101010 0%, #999999 100%);
         background-size: auto;
     }
-    #youtube-video{
-        border-radius: 5px;
-        width: 100%;
-        height: 100%;
-    }
-    .Caja h1{
-        width: 100%;
-        height: 50%;
-        align-items: center;
-        display: block;
-    }
     nav{
         position: static;
+        text-align: center;
     }
 }
-*/
